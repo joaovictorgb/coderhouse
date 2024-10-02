@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+.container {
+          display: grid;
+          grid-template-columns: 100px auto 100px;
+          grid-template-rows: repeat(6, 100px);
+          gap: 10px;
+          grid-template-areas:
+              "header"
+              
+      }
+      header {
+          grid-area: header;
+          background-color: red;
+      }
+      nav {
+          grid-area: nav;
+          background-color: rgb(24, 143, 20);
+      }
+      main {
+          grid-area: nav;
+          background-color: rgb(55, 0, 255);
+      }
+            
+}
+@media screen and (min-width: 768px) {
+          .container {
+                    display: grid;
+                    grid-template-columns: 100px auto 100px;
+                    grid-template-rows: repeat(6, 100px);
+                    gap: 10px;
+                    grid-template-areas:
+                        "header"
+                        
+                }
+                header {
+                    grid-area: header;
+                    background-color: red;
+                }
+                nav {
+                    grid-area: nav;
+                    background-color: rgb(24, 143, 20);
+                }
+                main {
+                    grid-area: nav;
+                    background-color: rgb(55, 0, 255);
+                }
+                      
+          }
